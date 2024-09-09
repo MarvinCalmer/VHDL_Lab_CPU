@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1717495832" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MINIuP_T1.dcp">
+  <File Type="PA-TCL" Name="MINIuP_T7.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="MINIuP_T7_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="MINIuP_T7_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MINIuP_T7.vds"/>
+  <File Type="RDS-UTIL" Name="MINIuP_T7_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MINIuP_T7_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MINIuP_T7.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MINIuP_T7_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MINIuP_T7_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/modules/ALU.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/ALU.vhd"/>
+        <Attr Name="ImportTime" Val="1715370958"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/Accu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/Accu.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/auxmodules/Aux_AUXMUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/auxmodules/Aux_AUXMUX.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/auxmodules/Aux_ClockDiv.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/auxmodules/Aux_ClockDiv.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/auxmodules/Aux_NXS47Seg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/auxmodules/Aux_NXS47Seg.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/CtrlUnitV3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV3.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/IMUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/IMUX.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/InBuffer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/InBuffer.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/InstrPtr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/InstrPtr.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/InstrReg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/InstrReg.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/MicroProgV3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/MicroProgV3.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/OMUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/OMUX.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/OutReg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/OutReg.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/testprgs/ProgROM_Testprog4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/testprgs/ProgROM_Testprog4.vhd"/>
+        <Attr Name="ImportTime" Val="1685110502"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/RAM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/RAM.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/tasks/MINIuP_T7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T7.vhd"/>
+        <Attr Name="ImportTime" Val="1685110749"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/auxmodules/Aux_ButtonClk.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/auxmodules/Aux_ButtonClk.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testprgs/ProgROM_Testprog3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/testprgs/ProgROM_Testprog3.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/tasks/MINIuP_T6.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T6.vhd"/>
+        <Attr Name="ImportTime" Val="1685110742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/CtrlUnitV2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV2.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modules/MicroProgV2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/MicroProgV2.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testprgs/ProgROM_Testprog2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/testprgs/ProgROM_Testprog2.vhd"/>
+        <Attr Name="ImportTime" Val="1683293056"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/tasks/MINIuP_T5.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T5.vhd"/>
+        <Attr Name="ImportTime" Val="1685110735"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/modules/MicroProgV1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/MicroProgV1.vhd"/>
+        <Attr Name="ImportTime" Val="1715377327"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/testprgs/ProgROM_Testprog1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/testprgs/ProgROM_Testprog1.vhd"/>
+        <Attr Name="ImportTime" Val="1715446142"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/tasks/MINIuP_T4.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T4.vhd"/>
+        <Attr Name="ImportTime" Val="1685110727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/auxmodules/Aux_ALUCtrlS.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/auxmodules/Aux_ALUCtrlS.vhd"/>
+        <Attr Name="ImportTime" Val="1678375753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/tasks/MINIuP_T1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T1.vhd"/>
+        <Attr Name="ImportTime" Val="1685110691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/tasks/MINIuP_T2.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T2.vhd"/>
+        <Attr Name="ImportTime" Val="1715379100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/tasks/MINIuP_T3.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T3.vhd"/>
+        <Attr Name="ImportTime" Val="1715447748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MINIuP_T7"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/MINIuP_T1.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DigitaltechnikLabor2/MINIuP/MINIuP.srcs/utils_1/imports/synth_1/MINIuP_T1.dcp"/>
+        <Attr Name="ImportTime" Val="1715448160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

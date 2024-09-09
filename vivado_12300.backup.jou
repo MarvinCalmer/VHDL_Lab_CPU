@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 16:36:52 2024
+# Process ID: 12300
+# Current directory: C:/Users/Marvin/Desktop/Labor_3Vorbereitung
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23032 C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.xpr
+# Log file: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/vivado.log
+# Journal file: C:/Users/Marvin/Desktop/Labor_3Vorbereitung\vivado.jou
+# Running On: Marvin-PC, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 16, Host memory: 17126 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.xpr
+update_compile_order -fileset sources_1

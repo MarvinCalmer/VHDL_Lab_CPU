@@ -1,0 +1,16 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd,1717323770,vhdl,C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd,,,ctrlunitv1,,,,,,,,
+C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd,1678375753,vhdl,,,,bench_ctrlunitv1,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV2.vhd,1678375753,vhdl,,,,bench_ctrlunitv2,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd,1678375753,vhdl,,,,bench_ctrlunitv3,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV1.vhd,1678375754,vhdl,,,,bench_microprogv1,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV2.vhd,1701955122,vhdl,,,,bench_microprogv2,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV3.vhd,1701955165,vhdl,,,,bench_microprogv3,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/design/modules/MicroProgV1.vhd,1715377328,vhdl,C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV1.vhd,,,microprogv1,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV2.vhd,1717325913,vhdl,C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV2.vhd,,,ctrlunitv2,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV3.vhd,1717329880,vhdl,C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd,,,ctrlunitv3,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/MicroProgV2.vhd,1717325168,vhdl,C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV2.vhd,,,microprogv2,,,,,,,,
+C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/MicroProgV3.vhd,1717329068,vhdl,C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV3.vhd,,,microprogv3,,,,,,,,

@@ -1,0 +1,1158 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  2 12:06:59 2024
+# Process ID: 324
+# Current directory: C:/Users/Marvin/Desktop/Labor_3Vorbereitung
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17996 C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.xpr
+# Log file: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/vivado.log
+# Journal file: C:/Users/Marvin/Desktop/Labor_3Vorbereitung\vivado.jou
+# Running On: Marvin-PC, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 16, Host memory: 17126 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:13 . Memory (MB): peak = 1560.125 ; gain = 448.715
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV1.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV1.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV1.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+WARNING: [filemgmt 20-354] The following file(s) were not imported. Local copy of file(s) already exists:
+C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Hint: use the '-force' option to overwrite the local copies.
+update_compile_order -fileset sim_1
+set_property top bench_ctrlunitv1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+import_files -norecurse C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd
+WARNING: [filemgmt 20-354] The following file(s) were not imported. Local copy of file(s) already exists:
+C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd
+Hint: use the '-force' option to overwrite the local copies.
+update_compile_order -fileset sources_1
+set_property top CtrlUnitV1 [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:71]
+ERROR: [VRFC 10-2989] 'accuclk' is not declared [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:76]
+ERROR: [VRFC 10-9458] unit 'ctrlunitbehavior' is ignored due to previous errors [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:26]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bench_ctrlunitv1'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_ctrlunitv1_behav xil_defaultlib.bench_ctrlunitv1 -log elaborate.log"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_ctrlunitv1_behav xil_defaultlib.bench_ctrlunitv1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package std.env
+Compiling architecture ctrlunitbehavior of entity xil_defaultlib.CtrlUnitV1 [ctrlunitv1_default]
+Compiling architecture behav of entity xil_defaultlib.bench_ctrlunitv1
+Built simulation snapshot bench_ctrlunitv1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bench_ctrlunitv1_behav -key {Behavioral:sim_1:Functional:bench_ctrlunitv1} -tclbatch {bench_ctrlunitv1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source bench_ctrlunitv1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: OK [Regulaerer Ablauf] Initialzustand
+Time: 33 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 1
+Time: 60 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 2
+Time: 80 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 0
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Initialzustand
+Time: 100 ns  Iteration: 1  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 1
+Time: 120 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 2
+Time: 140 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 0
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+$stop called at time : 160 ns : File "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" Line 136
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bench_ctrlunitv1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1628.098 ; gain = 53.883
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_ctrlunitv1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_ctrlunitv1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_ctrlunitv1_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bench_ctrlunitv1'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_ctrlunitv1_behav xil_defaultlib.bench_ctrlunitv1 -log elaborate.log"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_ctrlunitv1_behav xil_defaultlib.bench_ctrlunitv1 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package std.env
+Compiling architecture ctrlunitbehavior of entity xil_defaultlib.CtrlUnitV1 [ctrlunitv1_default]
+Compiling architecture behav of entity xil_defaultlib.bench_ctrlunitv1
+Built simulation snapshot bench_ctrlunitv1_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bench_ctrlunitv1_behav -key {Behavioral:sim_1:Functional:bench_ctrlunitv1} -tclbatch {bench_ctrlunitv1.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source bench_ctrlunitv1.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: OK [Regulaerer Ablauf] Initialzustand
+Time: 33 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 1
+Time: 60 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 2
+Time: 80 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 0
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Initialzustand
+Time: 100 ns  Iteration: 1  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 1
+Time: 120 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 2
+Time: 140 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 0
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+$stop called at time : 160 ns : File "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" Line 136
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bench_ctrlunitv1_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1655.035 ; gain = 0.000
+import_files -norecurse C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/tasks/MINIuP_T4.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+set_property top MINIuP_T4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/utils_1/imports/synth_1/MINIuP_T1.dcp with file C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1/MINIuP_T3.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1
+
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jun  2 12:32:01 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1/runme.log
+[Sun Jun  2 12:32:01 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -jobs 8
+[Sun Jun  2 12:36:18 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: CtrlUnitV1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5888
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2402.652 ; gain = 433.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CtrlUnitV1' [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'CtrlUnitV1' (0#1) [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/CtrlUnitV1.vhd:26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2510.102 ; gain = 540.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2510.102 ; gain = 540.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2510.102 ; gain = 540.879
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2510.102 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:12]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLK100MHZ]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:12]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'CLK100MHZ'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:15]
+WARNING: [Vivado 12-508] No pins matched 'BCLK/CLK_reg/Q'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:15]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_ports CLK100MHZ]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:15]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[1]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[2]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[3]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[4]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[5]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[6]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CT[7]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CTP'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[0]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[1]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[2]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[3]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[4]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[5]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[6]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AN[7]'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'RESETN'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNC'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNU'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNR'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTND'. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/constraints/Nexys-4-DDR-Lab.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2571.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2611.477 ; gain = 642.254
+8 Infos, 58 Warnings, 57 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 2611.477 ; gain = 956.441
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2645.555 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2645.555 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2997.332 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2997.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3081.816 ; gain = 436.262
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jun  2 12:38:12 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/impl_1/runme.log
+set_property top MINIuP_T4 [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+reset_run impl_1 -prev_step 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/utils_1/imports/synth_1/MINIuP_T1.dcp with file C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1/CtrlUnitV1.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1
+
+launch_runs synth_1 -jobs 8
+[Sun Jun  2 12:38:59 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+launch_runs impl_1 -jobs 8
+[Sun Jun  2 12:40:15 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun Jun  2 12:42:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.runs/impl_1/runme.log
+import_files -norecurse C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/design/modules/MicroProgV2.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+set_property top MicroProgV2 [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_microprogV2.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+set_property top bench_microprogV2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\design\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\tasks\MINIuP_T4.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+set_property top bench_microprogV1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+set_property top bench_microprogV2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bench_microprogV2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bench_microprogV2_vhdl.prj"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/MicroProgV2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MicroProgV2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_microprogV2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bench_microprogV2'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_microprogV2_behav xil_defaultlib.bench_microprogV2 -log elaborate.log"
+ECHO ist ausgeschaltet (OFF).
+ECHO ist ausgeschaltet (OFF).
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bench_microprogV2_behav xil_defaultlib.bench_microprogV2 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package std.env
+Compiling architecture microprogv2behavior of entity xil_defaultlib.MicroProgV2 [microprogv2_default]
+Compiling architecture behav of entity xil_defaultlib.bench_microprogv2
+Built simulation snapshot bench_microprogV2_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+Note: OK [Regulaerer Ablauf] Initialzustand
+Time: 33 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 1
+Time: 60 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 2
+Time: 80 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 0
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Initialzustand
+Time: 100 ns  Iteration: 1  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 1
+Time: 120 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 2
+Time: 140 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 0
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+$stop called at time : 160 ns : File "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" Line 136
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 3108.480 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+restart
+INFO: [Wavedata 42-604] Simulation restarted
+run all
+Note: OK [Regulaerer Ablauf] Initialzustand
+Time: 33 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 1
+Time: 60 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 2
+Time: 80 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Regulaerer Ablauf] Folgezustand 0
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Initialzustand
+Time: 100 ns  Iteration: 1  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 1
+Time: 120 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 2
+Time: 140 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+Note: OK [Ausgabe Ablauf] Folgezustand 0
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv1/stimuli_process  File: C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd
+$stop called at time : 160 ns : File "C:/Users/Marvin/Desktop/DigitaltechnikLabor2/MINIuP_VHDL_templates/templates/testbench/bench_CtrlUnitV1.vhd" Line 136
+set_property top bench_microprogV1 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_microprogV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_microprogV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_microprogV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_microprogV2.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sim_1\imports\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\DigitaltechnikLabor2\MINIuP_VHDL_templates\templates\testbench\bench_CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\CtrlUnitV1.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Marvin\Desktop\Labor_3Vorbereitung\Labor_3Vorbereitung.srcs\sources_1\imports\modules\MicroProgV2.vhd:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bench_microprogV1'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird: "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  2 12:51:10 2024...

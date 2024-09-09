@@ -1,0 +1,77 @@
+Time resolution is 1 ps
+Note: OK Zustand 0
+Time: 40 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe add Befehl
+Time: 50 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 60 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 80 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jmp Befehl
+Time: 100 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 120 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 140 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jz Befehl, Springbedingung erfuellt
+Time: 160 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 180 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 200 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 220 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jz Befehl, Springbedingung nicht erfuellt
+Time: 220 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 240 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 260 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 280 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jnz Befehl, Springbedingung erfuellt
+Time: 280 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 300 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 320 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 340 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jnz Befehl, Springbedingung nicht erfuellt
+Time: 340 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 360 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 380 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 400 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe js Befehl, Springbedingung erfuellt
+Time: 400 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 420 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 440 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 460 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe js Befehl, Springbedingung nicht erfuellt
+Time: 460 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 480 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 500 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 520 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jns Befehl, Springbedingung erfuellt
+Time: 520 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 1
+Time: 540 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 2
+Time: 560 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: OK Zustand 0
+Time: 580 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_process  File: C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd
+Note: Pruefe jns Befehl, Springbedingung nicht erfuellt
+Time: 580 ns  Iteration: 0  Process: /bench_ctrlunitv3/stimuli_proce

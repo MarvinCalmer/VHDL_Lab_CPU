@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sources_1/imports/modules/CtrlUnitV3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CtrlUnitV3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Marvin/Desktop/Labor_3Vorbereitung/Labor_3Vorbereitung.srcs/sim_1/imports/testbench/bench_CtrlUnitV3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bench_ctrlunitv3'

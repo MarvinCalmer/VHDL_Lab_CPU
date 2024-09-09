@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "bench_microprogV1_behav" "xil_defaultlib.bench_microprogV1" -log "elaborate.log" 
